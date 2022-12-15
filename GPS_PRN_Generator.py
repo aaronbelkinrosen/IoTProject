@@ -99,6 +99,10 @@ def PRN(sv, plot):
         plt.xlabel('samples')
         plt.show()
 
+    file = open("prn_code.txt", "w+")
+    header_str = 'PRN Code for Satellite %d\n' %sv
+    file.write(header_str + str(ca))
+    file.close
     # return C/A code!
     return ca
 
