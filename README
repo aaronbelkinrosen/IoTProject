@@ -2,8 +2,12 @@
 
 # GPS Spoofing with HackRF One SDR
 
-# Recovering doppler shifted carrier frequency from Rx Signal Using the Parallel Code Phase Search Algorithm 
+# Install Dependencies: 
+  sudo apt=get install hackrf
 
+# Main Script is hackrf_script.py, where all user defined functions are called... 
+
+Textbook Referenced for Acquire Satellite PRN Algorithm: 
 (K. Borre, D. M. Akos, N. Bertelsen, P. Rinder, and S. H. Jensen, A
 Software-Defined GPS and Galileo Receiver: A Single-Frequency
 Approach, 1rd ed., Boston: Birkhuser, 2006, pp. 81-86)
