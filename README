@@ -2,6 +2,8 @@
 
 # GPS Spoofing with HackRF One SDR
 
+# Main Script is hackrf_script.py, where all user defined functions are called... 
+
 # Recovering doppler shifted carrier frequency from Rx Signal Using the Parallel Code Phase Search Algorithm 
 
 (K. Borre, D. M. Akos, N. Bertelsen, P. Rinder, and S. H. Jensen, A
